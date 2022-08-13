@@ -23,7 +23,7 @@ class Auction extends Component {
             <div>
                 <h1>Dimension 20 Minis Auction</h1>
                 <p className="text-container">
-                    In July 2022, the RPG show Dimension 20 announced that it would be auctioning off minis from their season, <i>A Crown of Candy</i> to raise money for charity and for future minis in future seasons. There would be four waves, each with about twenty-five minis starting at $50 each. Little did the internet know how big this auction would turn out. The first wave saw immediate success, with the lowest mini still going for $602 (Candy Villager 4). Each wave has shown new levels of success.
+                    In July 2022, the RPG show Dimension 20 announced that it would be auctioning off minis from their season, <i>A Crown of Candy</i> to raise money for charity and for future minis in future seasons. There would be four waves, each with about twenty-five minis starting at $50 each. Little did the internet know how big this auction would turn out. The first wave saw immediate success, with the lowest mini still going for $602 (Candy Villager 4). Each wave has shown new levels of success. Below are tables and visualizations to interpret various aspects of the data. 
                 </p>
                 <h3>Glossary of Terms</h3>
                 <p className="text-container">If you're new to role-playing games (RPGs) or Dimension 20, here are some terms you'll see in this analysis.</p>
@@ -32,91 +32,21 @@ class Auction extends Component {
                     <strong>Background.</strong> Background characters, like Candy Villager 4 or Banana Swordsman 1. They're here for visual flavor, but aren't really part of the story. <br />
                     <strong>Player.</strong> When looking at mini-types, these are the minis for the players are the table. Any companions or pets are part of the NPC category.
                 </p>
+                <h2>Results</h2>
+                <p className="text-container">
+                    A few different conclusions can be drawn from this data. The first, and maybe obvious, is that player minis tended to auction for more than NPCs and background minis. No background minis broke the top 10 earners, and only one broke the top 10 most bid on (Candy Villager 2, a very cute chocolate bar). This is to be expected, as viewers spend much more time with player characters. The unused player character minis fall right in the main clump of minis, but still above background minis. A few NPCs did manage to break the top 10 earners (Lord Calroy Cruller, Sir Keradin Deeproot, Duke Joren Jawbreaker, and Queen Caramelinda), but they are major NPCs in the season. 
+                </p>
+                <p className="text-container">
+                    Another important conclusion drawn is that people have a great interest in the player character minis, as represented by the bids vs amount auction for graph. The player minis stay close ot below the average line for bids, but are worth far more than most of the minis. This shows that viewers quickly raised the auction amount such that there was minimal bidding wars. On the opposite side, we see that nine out of 10 of the top bid on minis are NPCs, and only two of those minis are also on the top 10 earners list. People spent time only minorly incrementing the amounts for the NPCs, sparking last minute bidding wars.
+                </p>
                 <p className="mobile-tableau">
                     Tableau visualizations are best viewed on a screen at least 700px wide. Please view this page on a tablet or computer.
                 </p>
+                <h2>Tableau Visualizations</h2>
                 <div id="vizContainer"></div>
-                <div>
-                    <table className="d20-table">
-                        <tr>
-                            <th>Place</th>
-                            <th>Character</th>
-                            <th>Group</th>
-                            <th>Amount</th>
-                            <th>Bids</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Sir Keradin Deeproot</td>
-                            <td>NPC</td>
-                            <td>$7,002</td>
-                            <td>251 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Chancellor Lapin Cadbury</td>
-                            <td>Player</td>
-                            <td>$5,601</td>
-                            <td>128 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Liam Wilhelmina</td>
-                            <td>Player</td>
-                            <td>$5,502</td>
-                            <td>95 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Sir Theobald Gumbar</td>
-                            <td>Player</td>
-                            <td>$5,001</td>
-                            <td>52 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Princess Jet Rocks</td>
-                            <td>Player</td>
-                            <td>$4,500</td>
-                            <td>83 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Saccharina Frostwhip</td>
-                            <td>Player</td>
-                            <td>$4,260</td>
-                            <td>120 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Duke Joren Jawbreaker</td>
-                            <td>NPC</td>
-                            <td>$4,210</td>
-                            <td>330 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Queen Caramelinda</td>
-                            <td>NPC</td>
-                            <td>$4,011</td>
-                            <td>158 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Captain Annabelle Cheddar</td>
-                            <td>NPC</td>
-                            <td>$3,702</td>
-                            <td>268 Bids</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Manta Ray Jack</td>
-                            <td>NPC</td>
-                            <td>$3,701</td>
-                            <td>259 Bids</td>
-                        </tr>
-                    </table>
-                </div>
+                <div className="big-space"></div>
+                <h2>Spreadsheet Tables</h2>
+                <iframe title="Dimension 20 Auction spreadsheet" id="frame-d20auction" className="spreadsheet-frame" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmhGIt24-hxahczxDksbg2lsMKT0ya5SEJO49Qu5j0LH8IqlI-yAF9Y6-79Tcttd8RmmIIQffC2drX/pubhtml?gid=1637692870&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
         )
     }

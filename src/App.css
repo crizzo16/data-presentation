@@ -87,7 +87,8 @@ h1, h2, h3, h4 {
 }
 
 #vizContainer {
-  margin: var(--base-margin);
+  margin: calc(2*var(--base-margin)) var(--base-margin);
+  height: 70vh;
 }
 
 .img-about {
@@ -97,6 +98,12 @@ h1, h2, h3, h4 {
   justify-content: center;
   max-width: 600px;
   width: 50%;
+}
+
+.spreadsheet-frame {
+  margin: calc(2*var(--base-margin)) var(--base-margin);
+  width: calc(100% - 2*var(--base-margin)) !important;
+  min-height: 70vh;
 }
 
 .navigation {
