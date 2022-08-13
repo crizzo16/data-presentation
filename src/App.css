@@ -375,6 +375,11 @@ h1, h2, h3, h4 {
   .text-container {
     width: 80%;
   }
+
+  .project-link {
+    display: flex;
+    opacity: 90%;
+  }
 }
 
 /*******************/
@@ -445,5 +450,10 @@ h1, h2, h3, h4 {
 
   .gen-img {
     max-height: 80vh;
+  }
+
+  .project-link {
+    display: flex;
+    opacity: 90%;
   }
 }
