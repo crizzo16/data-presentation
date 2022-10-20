@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 function About() {
   return (
@@ -6,28 +8,34 @@ function About() {
       <div>
         <div className="about-side-by-side">
           <img className="img-about" src="./assets/ProfCelia.JPG" />
-          <p className="text-container about-text">
-            Raised in central California, Celia has always enjoyed logic puzzles
-            and figuring things out, even if she hadn't discovered coding yet. At
-            the University of Puget Sound, she decided to do a Computer Science
-            minor, but from "Hello World!" was immediately entranced. Switching to
-            a coding major, she finished her university days with Mathematics and
-            French minors.
-            <br />
-            <br></br>
-            After university, Celia decided to augment her coding skills with a
-            web development course through UC Davis Extension. This help her get
-            in touch with her artistic side, as she really enjoyed the
-            intersection between making a website look great while also being
-            well-coded.
-            <br />
-            <br></br>
-            Outside of coding, Celia enjoys being creative, whether that's sewing
-            masks or running a D&amp;D game for her friends. Like many others
-            during the pandemic, she discovered that spending time with friends
-            and family is very important, especially if she can convince them to
-            play a board game or two.
-          </p>
+          <div className="sub-about">
+            <p className="text-container about-text">
+              Raised in central California, Celia has always enjoyed logic puzzles
+              and figuring things out, even if she hadn't discovered coding yet. At
+              the University of Puget Sound, she decided to do a Computer Science
+              minor, but from "Hello World!" was immediately entranced. Switching to
+              a coding major, she finished her university days with Mathematics and
+              French minors.
+              <br />
+              <br></br>
+              After university, Celia decided to augment her coding skills with a
+              web development course through UC Davis Extension. This help her get
+              in touch with her artistic side, as she really enjoyed the
+              intersection between making a website look great while also being
+              well-coded.
+              <br />
+              <br></br>
+              Outside of coding, Celia enjoys being creative, whether that's sewing
+              masks or running a D&amp;D game for her friends. Like many others
+              during the pandemic, she discovered that spending time with friends
+              and family is very important, especially if she can convince them to
+              play a board game or two.
+            </p>
+            <div className="links">
+                <a href="https://www.linkedin.com/in/cecilia-rizzo/" target="_blank"><FontAwesomeIcon className="sm-icon" icon={faLinkedin} /></a>
+                <a href="https://github.com/crizzo16" target="_blank"><FontAwesomeIcon className="sm-icon" icon={faGithub} /></a>
+            </div>
+          </div>
         </div>
 
         <div className="line"></div>

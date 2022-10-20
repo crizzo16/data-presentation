@@ -112,6 +112,7 @@ h1, h2, h3, h4 {
 .about-text {
   margin-left: var(--base-padding) !important;
   margin-right: var(--base-padding) !important;
+  width: 100% !important;
 }
 
 .spreadsheet-frame {
@@ -291,6 +292,26 @@ h1, h2, h3, h4 {
 .resume-stuff ul li {
 }
 
+.sub-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-about .links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sm-icon {
+  width: 50px;
+  height: 50px;
+  color: var(--color);
+}
+
+.sm-icon:hover {
+  color: var(--color-darken3);
+}
+
 .big-space {
   height: calc(var(--base-padding)*4)
 }
@@ -433,6 +454,7 @@ h1, h2, h3, h4 {
   .about-text {
     margin-left: auto !important;
     margin-right: auto !important;
+    width: 70% !important;
   }
 }
 
