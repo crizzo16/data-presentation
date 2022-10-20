@@ -5,6 +5,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
+import Animation from "./components/Animation";
 /* Project Imports */
 import Auction from "./components/projects/d20Auction";
 import Sims4 from "./components/projects/Sims4";
@@ -18,14 +19,16 @@ function App() {
       <div className="navigation section">
         <img className="nav-img" src="./assets/Celia01.jpeg" />
         <div className="nav">
-          <NavLink to="/" className="nav-item">About</NavLink>
+          <NavLink to="/" className="nav-item">Home</NavLink>
+          <NavLink to="/about" className="nav-item">About</NavLink>
           <NavLink to="/projects" className="nav-item">Projects</NavLink>
         </div>
       </div>
       <div className="main-content section">
         <Routes>
-          <Route exact path="/" element={ <About /> }/>
+          <Route path="/about" element={ <About /> }/>
           <Route path="/projects" element={ <Projects /> }/>
+          <Route exact path="/" element={ <Animation /> } />
 
           <Route path="/projects/d20-auction" element={ <Auction /> } />
           <Route path="/projects/sims4" element={ <Sims4 /> } />

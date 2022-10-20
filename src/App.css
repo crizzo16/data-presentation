@@ -161,6 +161,24 @@ h1, h2, h3, h4 {
   background: var(--color-darken3);
 }
 
+.front-nav-item {
+  width: 100%;
+  background: var(--color) !important;
+  color: white !important;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: var(--base-padding);
+  margin: var(--base-margin);
+  border: none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border-radius: 32px;
+}
+
+.front-nav-item:hover {
+  background: var(--color-darken3);
+}
+
 .main-content {
   padding: var(--base-padding);
   margin: var(--base-margin);
@@ -310,6 +328,37 @@ h1, h2, h3, h4 {
 
 .sm-icon:hover {
   color: var(--color-darken3);
+}
+
+.basic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.basic p {
+  text-align: center;
+  font-size: 36px;
+  width: 80%;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.front-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+#front-name-sent {
+  font-size: 48px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#front-name {
+  font-weight: bold;
+  font-family: 'Oleo Script', cursive;
 }
 
 .big-space {
