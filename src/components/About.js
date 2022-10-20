@@ -30,19 +30,19 @@ function About() {
         <div className="quick-about">
           <div className="sec-quick-about color">
             <h2>Currently Reading</h2>
-            <p>Gideon the Ninth by Tamsyn Muir</p>
+            <p>Project Hail Mary by Andy Weir</p>
           </div>
           <div className="sec-quick-about color-darken-1">
             <h2>Currently Watching</h2>
-            <p>Critical Role, Young Justice, Paper Girls</p>
+            <p>Critical Role, Young Justice, Rings of Power</p>
           </div>
           <div className="sec-quick-about color-darken-2">
             <h2>Currently Playing</h2>
-            <p>Marvel Avengers, Unravel, Ghosts of Saltmarsh</p>
+            <p>Marvel Avengers, SWTOR, Ghosts of Saltmarsh</p>
           </div>
           <div className="sec-quick-about color-darken-3">
             <h2>Currently Learning</h2>
-            <p>Data Science Foundations: Statistical Inference</p>
+            <p>Data Science Foundations: Statistical Inference, Project Management</p>
           </div>
         </div>
       </div>

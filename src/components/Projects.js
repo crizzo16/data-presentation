@@ -21,6 +21,10 @@ class Projects extends Component {
                     <img className="project-img" alt="link to R&amp;R project" src="./assets/rr-tile.png" />
                     <NavLink to="/projects/rrconsignments" className="project-link">R&amp;R Consignments</NavLink>
                 </div>
+                <div className="project-card">
+                    <img className="project-img" alt="link to Flipcause donation tool project" src="./assets/fc-donation-tile.jpg" />
+                    <NavLink to="/projects/flipcause-donation-tool" className="project-link">Flipcause Donation Tool</NavLink>
+                </div>
             </div>
         )
     }

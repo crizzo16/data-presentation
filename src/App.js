@@ -10,6 +10,7 @@ import Auction from "./components/projects/d20Auction";
 import Sims4 from "./components/projects/Sims4";
 import Eurovision2022 from "./components/projects/Eurovision2022";
 import RRconsignments from './components/projects/RRconsignments';
+import FCDonation from './components/projects/fcDonation';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/projects/sims4" element={ <Sims4 /> } />
           <Route path="/projects/eurovision-2022" element={ <Eurovision2022 /> } />
           <Route path="/projects/rrconsignments" element={ <RRconsignments /> } />
+          <Route path="/projects/flipcause-donation-tool" element={ <FCDonation />} />
         </Routes>
       </div>
     </div>

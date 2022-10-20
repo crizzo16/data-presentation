@@ -46,7 +46,7 @@ class Auction extends Component {
                 <div id="vizContainer"></div>
                 <div className="big-space"></div>
                 <h2>Spreadsheet Tables</h2>
-                <iframe title="Dimension 20 Auction spreadsheet" id="frame-d20auction" className="spreadsheet-frame" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmhGIt24-hxahczxDksbg2lsMKT0ya5SEJO49Qu5j0LH8IqlI-yAF9Y6-79Tcttd8RmmIIQffC2drX/pubhtml?gid=1637692870&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                <iframe title="Dimension 20 Auction spreadsheet" id="frame-d20auction" className="spreadsheet-frame" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyYmLkw4g_YGxCclm4ttac4ACjOPhB0L0GXHELW1zFbMCfeIdAQwhbujb4OyYBhqpFk_vALdERfr3A/pubhtml?gid=1857248322&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
         )
     }
