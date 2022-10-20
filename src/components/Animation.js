@@ -57,17 +57,20 @@ class Animation extends Component {
   render() {
     return (
       <div className="basic">
-        <p id="front-hello">Hello!</p>
-        <p id="front-name-sent">My name is <span id="front-name">Celia Rizzo</span>.</p>
-        <p>
-          I am{" "}
-          <span id="front-role">{this.state.role[this.state.current[0]]}</span>{" "}
-          who loves{" "}
-          <span id="front-work">{this.state.work[this.state.current[1]]}</span>{" "}
-          and{" "}
-          <span id="front-fun">{this.state.fun[this.state.current[2]]}</span>!
-        </p>
+        <div className="animation"></div>
+        <div className="fun-fact">
+            <p id="front-hello">Hello!</p>
+            <p id="front-name-sent">My name is <span id="front-name">Celia Rizzo</span>.</p>
+            <p>
+              I am{" "}
+              <span id="front-role">{this.state.role[this.state.current[0]]}</span>{" "}
+              who loves{" "}
+              <span id="front-work">{this.state.work[this.state.current[1]]}</span>{" "}
+              and{" "}
+              <span id="front-fun">{this.state.fun[this.state.current[2]]}</span>!
+            </p>
 
+        </div>  
         <div className="front-nav">
           <button onClick={this.handleClick} className="front-nav-item">
             New Fun Fact!

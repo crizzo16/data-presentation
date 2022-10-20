@@ -16,7 +16,7 @@ class Sims4 extends Component {
 
   render() {
     return (
-      <div>
+      <div className="project-sec">
         <h1>Sims 4 Pack Releases</h1>
         <p className="text-container">
           The idea of this spreadsheet was to track Sims 4 releases in general.
@@ -44,6 +44,11 @@ class Sims4 extends Component {
           value of the items you're buying can have an impact on whether you buy
           the pack.
         </p>
+        <div className="line"></div>
+        <h2>Spreadsheet Tables</h2>
+        <div className="spreadsheet-div">
+        <iframe className="spreadsheet-frame" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTCdrFzWYnk-JcUyBnthPKl3Dx8A2396Pkk302422nfRoY2apLyEEri-AnM7qVeFoEhABMx7DU0i26-/pubhtml?gid=2056633264&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
         <div id="vizContainer"></div>
       </div>
     );
