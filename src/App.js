@@ -19,14 +19,12 @@ function App() {
         <img className="nav-img" src="./assets/Celia01.jpeg" />
         <div className="nav">
           <NavLink to="/" className="nav-item">About</NavLink>
-          <NavLink to="/resume" className="nav-item">Resume</NavLink>
           <NavLink to="/projects" className="nav-item">Projects</NavLink>
         </div>
       </div>
       <div className="main-content section">
         <Routes>
           <Route exact path="/" element={ <About /> }/>
-          <Route path="/resume" element={ <Resume /> }/>
           <Route path="/projects" element={ <Projects /> }/>
 
           <Route path="/projects/d20-auction" element={ <Auction /> } />
