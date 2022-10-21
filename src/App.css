@@ -385,6 +385,7 @@ h1, h2, h3, h4 {
 
 .animation {
   animation-timing-function: ease-in-out;
+  padding: 16px 200px;
 }
 
 .front-nav {
