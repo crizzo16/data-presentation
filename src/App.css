@@ -385,7 +385,7 @@ h1, h2, h3, h4 {
 
 .animation {
   animation-timing-function: ease-in-out;
-  padding: 16px 200px;
+  padding: 16px 300px;
 }
 
 .front-nav {
@@ -575,6 +575,10 @@ h1, h2, h3, h4 {
     margin-right: auto !important;
     width: 70% !important;
   }
+
+  .animation {
+    padding: 16px;
+  }
 }
 
 
@@ -647,6 +651,22 @@ h1, h2, h3, h4 {
 
   .section-resume {
     width: 100%;
+  }
+
+  .animation {
+    padding: 0;
+  }
+
+  .fun-fact p {
+    font-size: 24px !important;
+  }
+
+  .fun-fact {
+    padding: 16px;
+  }
+
+  .front-nav {
+    flex-wrap: wrap;
   }
 }
 
