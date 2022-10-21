@@ -57,7 +57,7 @@ class Animation extends Component {
   render() {
     return (
       <div className="basic">
-        <div className="animation"></div>
+        <div className="animation"><img src="./assets/dice-d20-solid.svg" /></div>
         <div className="fun-fact">
             <p id="front-hello">Hello!</p>
             <p id="front-name-sent">My name is <span id="front-name">Celia Rizzo</span>.</p>
