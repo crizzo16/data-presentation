@@ -25,6 +25,10 @@ class Projects extends Component {
                     <img className="project-img" alt="link to Flipcause donation tool project" src="./assets/fc-donation-tile.jpg" />
                     <NavLink to="/projects/flipcause-donation-tool" className="project-link">Flipcause Donation Tool</NavLink>
                 </div>
+                <div className="project-card">
+                    <img className="project-img" alt="link to Shut the Box game" src="https://best-alzheimers-products.com/wp-content/uploads/2015/06/4-player-shut-the-box.jpg"/>
+                    <NavLink to="/projects/shut-the-box" className="project-link">Shut the Box</NavLink>
+                </div>
             </div>
         )
     }

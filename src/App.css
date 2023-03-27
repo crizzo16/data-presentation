@@ -70,6 +70,42 @@ a:hover {
   margin: 0 calc(3*var(--base-margin));
 }
 
+.box {
+  border: 1px solid blue;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.single-token {
+  background: var(--color);
+  color: white;
+  margin: var(--base-margin);
+  padding: var(--base-padding);
+  border-radius: var(--base-border);
+  border: var(--color-darken4) 8px solid;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48pt;
+  width: 100%;
+}
+
+.token-back {
+  background-color: var(--color-darken4);
+  color: var(--color-darken4);
+  border: var(--color-darken4) 8px solid;
+  border-radius: var(--base-border);
+  padding: var(--base-padding);
+  margin: var(--base-margin);
+  text-align: center;
+  font-weight: bold;
+  font-size: 48pt;
+  width: 100%;
+
+}
+
 .full-area-padding h2 {
   font-size: 36px;
   text-decoration: underline;
