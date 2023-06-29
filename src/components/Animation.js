@@ -57,7 +57,7 @@ class Animation extends Component {
   render() {
     return (
       <div className="basic">
-        {/*<div className="animation"><img src="./assets/dice-d20-solid.svg" /></div>
+        <div className="animation"><img src="./assets/dice-d20-solid.svg" /></div>
         <div className="fun-fact">
             <p id="front-hello">Hello!</p>
             <p id="front-name-sent">My name is <span id="front-name">Celia Rizzo</span>.</p>
@@ -78,11 +78,7 @@ class Animation extends Component {
           <NavLink to="/about" className="front-nav-item">
             Learn More
           </NavLink>
-        </div>*/}
-        <h1>Looker Embed Test</h1>
-
-       <div className="box embed-test"> <iframe width="100%" height="450" src="https://lookerstudio.google.com/embed/reporting/2e2a4d80-36e0-4ee3-b7b3-dfcda79cda07/page/9dZUD" frameborder="0"></iframe></div>
-
+        </div>
       </div>
     );
   }
