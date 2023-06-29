@@ -74,6 +74,11 @@ a:hover {
   border: 1px solid blue;
 }
 
+.embed-test {
+  width: 90%;
+  min-height: 500px;
+}
+
 .tokens {
   display: flex;
   flex-wrap: nowrap;
